@@ -1,16 +1,88 @@
- <!DOCTYPE html>
-<html>
-    <head>
-        <title>Page Title</title>
-    </head>
-    <body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matt Morris — Home</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
-        <h1>get lost loser</h1>
-        <p>THE LIST</p>
-        <a href="URL_of_destination">Link text</a>
+  <nav>
+    <a href="index.html" class="nav-logo">Matt Morris</a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="blog.html">Blog</a></li>
+    </ul>
+  </nav>
 
-        <a href="https://colab.research.google.com/drive/1iJNkAEEcx19BYAh0Z6VElmxnsO4jXcRc#scrollTo=H8dg0Gch5xv5">Notion Colab Notebook</a>
+  <main class="page">
+    <section class="home-hero">
+      <div class="home-hero-left">
+        <p class="eyebrow">Currently available for work</p>
+        <h1 class="home-name">Matt<br><em>Morris.</em></h1>
+        <p class="home-tagline">
+          ML engineer / researcher building things at the intersection of
+          deep learning and systems. I like turning papers into code and
+          ideas into products.
+        </p>
+        <div class="home-links">
+          <a href="projects.html" class="btn btn-accent">View Projects</a>
+          <a href="mailto:you@example.com" class="btn">Get in Touch</a>
+        </div>
+      </div>
 
+      <div class="home-hero-right">
+        <div class="bio-block">
+          <h3>About</h3>
+          <p>
+            I'm a software engineer and researcher with a focus on machine learning
+            infrastructure, language models, and computer vision. Currently based in
+            [City], working on [current thing].
+          </p>
+        </div>
 
-    </body>
-</html> 
+        <div class="bio-block">
+          <h3>Background</h3>
+          <p>
+            Previously at MIT and Nasdaq. I studied Math and Computer Science and spent too many
+            late nights reading arXiv papers and turning them into experiments. I care
+            about writing clean code, building reliable systems, and sharing what I learn.
+          </p>
+        </div>
+
+        <div class="bio-block">
+          <h3>Skills & Tools</h3>
+          <div class="skills-grid">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">PyTorch</span>
+            <span class="skill-tag">JAX</span>
+            <span class="skill-tag">Transformers</span>
+            <span class="skill-tag">CUDA</span>
+            <span class="skill-tag">Linux</span>
+            <span class="skill-tag">TypeScript</span>
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">C++</span>
+          </div>
+        </div>
+
+        <div class="bio-block">
+          <h3>Links</h3>
+          <div class="skills-grid">
+            <a href="https://github.com/kineticisai" class="skill-tag" style="text-decoration:none;color:inherit;">GitHub ↗</a>
+            <a href="https://arxiv.org" class="skill-tag" style="text-decoration:none;color:inherit;">arXiv Reading List ↗</a>
+            <a href="blog.html" class="skill-tag" style="text-decoration:none;color:inherit;">Blog ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Matt Morris</p>
+    <a href="mailto:mimorrisai@gmail.com">mimorrisai@gmail.com</a>
+  </footer>
+
+</body>
+</html>

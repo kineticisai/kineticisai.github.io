@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name — Blog</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav>
+    <a href="index.html" class="nav-logo">Your Name</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="blog.html" class="active">Blog</a></li>
+    </ul>
+  </nav>
+
+  <main class="page">
+    <header class="section-header">
+      <h1 class="section-title">Writing</h1>
+      <span class="section-count">2 articles</span>
+    </header>
+
+    <div class="blog-list">
+
+      <!-- POST 1 -->
+      <!-- To add a post: duplicate this <a class="blog-post"> block and update the fields -->
+      <!-- Link href should point to your post HTML file, e.g. "posts/my-article.html" -->
+      <a class="blog-post" href="posts/post-template.html">
+        <div class="post-date">
+          Feb 2026<br>
+          <span style="color:var(--rule)">────</span>
+        </div>
+        <div>
+          <h2 class="post-title">Notes on Attention Mechanisms</h2>
+          <p class="post-excerpt">
+            A deep-dive into scaled dot-product attention, multi-head variants,
+            and the implementation details that papers gloss over. Includes
+            annotated code.
+          </p>
+          <div class="post-meta">
+            <span class="read-time">8 min read</span>
+            <span class="post-tag">ML Theory</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- POST 2 -->
+      <a class="blog-post" href="posts/post-template.html">
+        <div class="post-date">
+          Jan 2026<br>
+          <span style="color:var(--rule)">────</span>
+        </div>
+        <div>
+          <h2 class="post-title">Getting the Most Out of arXiv</h2>
+          <p class="post-excerpt">
+            My workflow for tracking papers, staying current without drowning,
+            and turning reading into working code fast.
+          </p>
+          <div class="post-meta">
+            <span class="read-time">5 min read</span>
+            <span class="post-tag">Workflow</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- ADD MORE POSTS BELOW THIS LINE -->
+      <!-- Copy the <a class="blog-post"> block above and fill in the details -->
+
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2026 Your Name</p>
+    <a href="mailto:you@example.com">you@example.com</a>
+  </footer>
+
+</body>
+</html>
